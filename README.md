@@ -5,8 +5,9 @@ AplusDoc is based on Yii Framework.
 The system is devided into two parts, the purpose of the frontstage is displaying the documents; the function of the backstage is editing documents.  
 
 To install the system:  
-1. pull the code under the directory of the web server;  
-2. configure the configuration file of the web server;  
+1. Pull the code under the directory of the web server  
+2. The yii framework library is needed to add to under of the root directory  
+3. Configure the configuration file of the web server  
  1. the domain of the frontstage is *.doc.synacast.com
  2. the domain of the backstage is *.admin.doc.synacast.com
  3. the session file will be saved in /home/$user/gfs/session
