@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+body{font-family:Tahoma,\5b8b\4f53;font-size:12px;color:#4C5657;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+em,i{font-style:normal;}
+.clearfix{zoom:1;}
+.clearfix:after{content:".";visibility:hidden;display:block;clear:both;height:0;}
+
+html,body{width:100%;height:100%;margin:0;padding:0;}
+.header,.side p,.tableA thead,.tableB thead,.tableC thead,.tableDiv thead{background:url(../images/frontend/bg_x.png) repeat-x;}
+
+/* 头部 */
+.header{height:54px;border-bottom:4px solid #26A9F9;background-position:0 0;}
+.header a{text-decoration:none;color:#26a9f8;}
+.header a:hover{text-decoration:underline;}
+.header h1{font-size:18px;}
+.header .nav{position:absolute;left:300px;top:45px;overflow:hidden;}
+.header .nav a{display:inline-block;padding-left:10px;overflow:hidden;}
+.header .nav a i{float:left;padding-right:10px;height:31px;line-height:31px;font-size:16px;text-align:center;color:#1A8FCD;font-family:微软雅黑}
+.header .nav .cur,.header .nav a:hover{background:url(../images/backend/nav_bg.png) no-repeat 0 0;}
+.header .nav .cur i,.header .nav a:hover i{background:url(../images/backend/nav_bg.png) no-repeat right -31px;color:#fff;}
+.header .nav span{display:inline-block;width:2px;height:19px;background:url(../images/backend/line.png) no-repeat 0 -7px;}
+.load{position:absolute;top:50px;margin:0;line-height:25px;width:300px;text-align:right;padding-right:50px;}
+.load strong{padding:0 10px;}
+.load a{padding:0 3px;}
+.box { background: #FFF url("../images/backend/box_bg.gif"); background-repeat: repeat-x; background-position: 0 1px; border: 1px solid #CAD9EA; padding: 10px; overflow: hidden;}
+.box td {color: #aaaaaa}
+
+.ico1,.ico2,.ico3,.ico4,.ico5,.ico6,.ico7,.ico8,.ico9,.ico10{background:url(../images/backend/icon.png) no-repeat;}
+.ico1,.ico2,.ico3,.ico4,.ico5,.ico6,.ico7,.ico8,.ico9,.ico10,.ico11,.ico19,.ico20{display:inline-block;margin:0 1px;vertical-align:middle;}
+.ico1{width:15px;height:20px;background-position:0 -66px;}
+.ico2{width:21px;height:20px;background-position:0 -86px;}
+.ico3{width:17px;height:19px;background-position:0 -106px;}
+.ico4{width:19px;height:18px;background-position:0 -125px;}
+.ico5{width:19px;height:19px;background-position:0 -158px;}
+.ico6{width:15px;height:15px;background-position:0 -143px;}
+.ico7{width:13px;height:19px;background-position:0 -177px;}
+.ico8{width:20px;height:20px;background-position:0 -196px;}
+.ico9{width:13px;height:16px;background-position:0 -216px;}
+.ico10{width:13px;height:16px;background-position:0 -232px;}
+.ico11,.ico12,.ico13,.ico14,.ico15,.ico16,.ico17,.ico18,.ico19,.icoStore,.icoHelp,.icoEpg,.icoModify,.icoRef,.icoLevel,.icoPlus{ display: inline-block; padding:10px 9px; margin:0 3px; vertical-align:middle;}
+.ico12{background:url(../images/backend/recycle.png) no-repeat center;}
+.ico19{background:url(../images/backend/delete_all.jpg) no-repeat center;}
+.icoPlus{background:url(../images/backend/plus.png) no-repeat center;}
